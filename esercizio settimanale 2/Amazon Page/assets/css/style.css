@@ -1,0 +1,136 @@
+html,
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #EAEDED;
+}
+
+.Amazon {
+    padding: auto;
+    width: 100%;
+    background-color: #222F3E;
+}
+
+.logo {
+    margin-left: 2%;
+    width: 5%;
+    padding: 0.5%;
+}
+
+.header-top {
+    background-color: #364759;
+}
+
+.menu {
+    padding: 0.5%;
+    margin-left: 2%;
+    background-color: #364759;
+    display: flex;
+    gap: 30px;
+
+}
+
+.menu a {
+    font-size: 90%;
+    color: white;
+}
+
+.header-bottom {
+    background-color: #F56600;
+    margin: 1%;
+    text-align: center;
+    padding: 0.5%;
+}
+
+.header-bottom .shop {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 90%;
+}
+
+.gift {
+    margin: 1%;
+    min-height: 50px;
+    background-image: url(../images/bg-image.png);
+    background-size: 100%;
+    background-repeat: repeat-y;
+    background-position-x: center;
+    background-position-y: top;
+    text-align: center;
+}
+
+
+.titolo1 {
+    padding: 0.7%;
+    color: white;
+    font-size: 1.4em;
+}
+
+
+.find {
+    background-color: rgb(255, 255, 255);
+    margin: 1%;
+    padding-bottom: 5%;
+}
+
+.testogift {
+    padding: 1%;
+}
+
+.shop {
+    font-size: 80%;
+    color: #00667C;
+}
+
+.immaginicarine {
+    display: flex;
+    gap: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.computer,
+.orologi,
+.animaletti,
+.kindle {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+.testo-foto{
+    text-align: center;
+    font-size: 80%;
+}
+.immagine-vr, .immagine-tavolo{
+    margin: 1%;
+}
+
+.vr, .tavolo {
+    height: 100%;
+    width: 100%;
+}
+.back{
+    padding: 0.5%;
+    text-align: center;
+    background-color:  #364759;
+}
+.backtotoo {
+    font-size: 70%;
+    color: white
+}
+
+.logoAmazon {
+    width: 100%;
+    background-color: #222F3E;
+    text-align: center ;
+}
+
+.logoamazon {
+    width: 6%;
+    padding: 2%;
+}
